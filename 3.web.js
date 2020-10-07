@@ -1,0 +1,2 @@
+/*! For license information please see 3.web.js.LICENSE.txt */
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{294:function(e,t,i){"use strict";i.r(t),t.default=async(e={})=>(e.recursive=e.recursive||!1,new Promise(t=>{const i=document.createElement("input");i.type="file",i.webkitdirectory=!0,i.addEventListener("change",()=>{let r=Array.from(i.files);e.recursive||(r=r.filter(e=>2===e.webkitRelativePath.split("/").length)),t(r)}),i.click()}))}}]);

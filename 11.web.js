@@ -1,0 +1,2 @@
+/*! For license information please see 11.web.js.LICENSE.txt */
+(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{296:function(e,i,t){"use strict";t.r(i),i.default=async(e,i={},t=null)=>{i.fileName=i.fileName||"Untitled",t=t||await window.showSaveFilePicker({types:[{description:i.description||"",accept:{[e.type]:i.extensions||[""]}}]});const a=await t.createWritable();return await a.write(e),await a.close(),t}}}]);

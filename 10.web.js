@@ -1,0 +1,2 @@
+/*! For license information please see 10.web.js.LICENSE.txt */
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{290:function(e,i,n){"use strict";n.r(i);const t=async e=>{const i=await e.getFile();return i.handle=e,i};i.default=async(e={})=>{const i={};e.mimeTypes?e.mimeTypes.map(n=>{i[n]=e.extensions||[]}):i["*.*"]=e.extensions||[];const n=await window.showOpenFilePicker({types:[{description:e.description||"",accept:i}],multiple:e.multiple||!1}),s=await Promise.all(n.map(t));return e.multiple?s:s[0]}}}]);
